@@ -2,6 +2,7 @@
 Send a Phishing email from attacker's account
 
 ![image-23.png](images\image-23.png)
+![image-23.png](images/image-23.png)
 
 ![image-24.png](images\image-24.png)
 
