@@ -3,7 +3,7 @@ This section covers email security with Microsoft Defender for Office 365.
 ## Create new users
 
 - Navigate to [Microsoft 365 admin center](admin.microsoft.com) and sigin with your main account that you used when you activated your `Microsoft 365 E5 license`.
-![alt text](images\image.png)
+![alt text](images/image.png)
 
 - Click on `Add a user`
 - Follow the steps to, fill in fake information to create a user and assign them `Microsoft 365 E5 license (no Teams)` 
@@ -15,7 +15,7 @@ If you have multiple Microsoft 365 E5 licenses then you can create multiple user
 - Navigate to [Outlook](https://outlook.office.com/mail/)
 - Login with your test user's credentials 
 - This will activate the user's mailbox
-![alt text](images\image-1.png)
+![alt text](images/image-1.png)
 
 
 ## Overview of Email & collaboration in Microsoft Defender XDR 

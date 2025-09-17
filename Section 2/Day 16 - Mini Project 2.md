@@ -4,7 +4,7 @@ Simulate a suspicious email, then walk through how a SOC analyst would investiga
 
 ## Simulate phishing email
 For simulation, the email sample was taken from mydifr SOC community's custom labs challenge ([Email #2](https://www.skool.com/mydfir/classroom/aee138db?md=01939dbdd423450abc7a3e5576d118b7)). I sent this test email from an external gmail account to my test user account in Outlook.
-![alt text](images\image-52.png)
+![alt text](images/image-52.png)
 
 ## Email investigation report
 
@@ -46,14 +46,14 @@ The email was sent from an external sender pretending to be a Security team, sho
         | join kind=leftouter (EmailAttachmentInfo) on NetworkMessageId
         | project-reorder TimeGenerated, Url, AttachmentCount, SenderFromDomain, EmailDirection, DeliveryAction
         ```
-        ![alt text](images\image-53.png)
+        ![alt text](images/image-53.png)
     - The user did not click the malicious link. 
         ```
         UrlClickEvents
         | where SenderFromAddress  == "cyberlearner500@gmail.com"
         | where RecipientEmailAddress == "cyberlearner@cyberlearner.onmicrosoft.com"
         ```
-        ![alt text](images\image-54.png)
+        ![alt text](images/image-54.png)
     - No outbound email communication was observed.
         ```
         EmailEvents
