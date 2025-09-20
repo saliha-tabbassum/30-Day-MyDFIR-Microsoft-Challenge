@@ -8,7 +8,7 @@ For simulation, the email sample was taken from mydifr SOC community's custom la
 
 ## Email investigation report
 
-###FINDINGS
+### FINDINGS
 
 - Time: 2024-03-11 14:21:18 UTC
 - Sender: cyberlearner500@gmail.com``
@@ -17,13 +17,13 @@ For simulation, the email sample was taken from mydifr SOC community's custom la
 - Submitted URL: hxxps[://]t[.]co/hdSGlufCET?id=7833882918994061387-6045
 - Effective URL: hxxps[://]anoukroams[.]com/bmw/
 
-###ASSUMPTIONS
+### ASSUMPTIONS
 
 - A threat actor is attempting to harvest credentials (True)
 - User entered their credentials on a credential harvesting website (False)
 - It is a normal business communication email (False)
 
-###INVESTIGATION
+### INVESTIGATION
 
 The email was sent from an external sender pretending to be a Security team, showing urgency and asking use to take an action on a "Unrecognized Lоgіn Attempt". The email suggests the user to clik "🔐 Review Lоgіn" button to verify their credntials leading to a possible credential harvesting website.
 
@@ -34,7 +34,7 @@ The email was sent from an external sender pretending to be a Security team, sho
 - `Why`: This is a social engineering attact in attempt to steal user's credentials.
 - `How`: The email pretended to be a security notification, urging user to enter their credentials.
 
-####ACTIONS
+#### ACTIONS
 
 - Checked URL reputation on [VirusTotal](https://www.virustotal.com/gui/url/ce7dd641d86d54e2b36315b1d34a0fde3dc5134fe35a572c14516f1a678ea8fe?nocache=1) and was reported as Phishing by one vendor.
 - Detonated the URL on [urlscan.io](https://urlscan.io/result/0198fc02-28a7-76c1-b0ea-7c8cc1728d8e/): The Submitted URL redirects to a potential credential harvester website which is currently down.
@@ -67,7 +67,7 @@ The email was sent from an external sender pretending to be a Security team, sho
         ```
     - If proxy logs are present, then you can check if some has browsed the suspicious domain. In this case no one did.
 
-###RECOMMENDATIONS
+### RECOMMENDATIONS
 
 The reported email was indeed Phishing leading to a credential harvester. 
 
