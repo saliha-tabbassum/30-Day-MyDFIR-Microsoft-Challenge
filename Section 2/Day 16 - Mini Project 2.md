@@ -20,7 +20,7 @@ For simulation, the email sample was taken from mydifr SOC community's custom la
 - A threat actor is attempting to harvest credentials (True)
 - User entered their credentials on a credential harvesting website (False)
 - It is a normal business communication email (False)
-``
+
 **INVESTIGATION**
 The email was sent from an external sender pretending to be a Security team, showing urgency and asking use to take an action on a "Unrecognized Lоgіn Attempt". The email suggests the user to clik "🔐 Review Lоgіn" button to verify their credntials leading to a possible credential harvesting website.
 
