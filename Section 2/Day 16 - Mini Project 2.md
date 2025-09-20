@@ -68,7 +68,7 @@ The email was sent from an external sender pretending to be a Security team, sho
 The reported email was indeed Phishing leading to a credential harvester. 
 
 - No user clicked the malicious link and no Phishing campaigns were observed. The Urls should be blocked.
-- Block the sender domain 
+- Block the sender domain if you are sure that it has no business impact on your environment (In this case, the sender is coming from gmail and by blocking this, it would likely cause availability issues for the business.)
 - Purge the email from recipient's mailbox. 
 - Close the incident as TruePositve with no business impact after performing the recommended containment actions.
 
