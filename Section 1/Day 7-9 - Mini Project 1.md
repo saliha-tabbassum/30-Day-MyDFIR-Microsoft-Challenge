@@ -1,5 +1,5 @@
 
-# BruteForce Simulation
+# Mini Project 1 - BruteForce Simulation
 I ran this simulation at the end of the project after completing Sections 2, 3, and 4. At that point the Entra ID data connector in Microsoft Sentinel was already enabled and sign-in logs were being ingested into the SigninLogs table (see Day 27 of the challenge). I performed the exercise at the end of the project so the Entra ID connector and SigninLogs ingestion were already in place; this let me personally simulate two brute-force scenarios and verify whether my custom detection would identify them.
 
 ## Simulation 1 — Local web client BruteForce

@@ -10,7 +10,7 @@ In this section I am documenting what is required for this challenge
 	- Microsoft Entra ID: Manages identities, and we can also reduce that to review sign in activity.
 	- Microsoft Intune: Will be used to deploy security policies.
 
-# Resources' names
+# Resource names
 - Test user account: Sal - cyberlearner@cyberlearner.onmicrosoft.com
 - Test user VM: mydifr-win11-vm (Public IP: 40.67.200.202)
 - External email account: Cyberlearner500@gmail.com
@@ -21,8 +21,6 @@ In this section I am documenting what is required for this challenge
 - Bookmark name: `SinginLogs - BruteForce Attempt`
 - Bookmark incident name: `MyDfir-Sal-BruteForceAttempt-Incident`
 
-
-[Defender XDR portal](security.microsoft.com)
 
 ### Create a billing alert on Azure
 - Go to Microsoft Azure Portal and sign-in with your test account 
